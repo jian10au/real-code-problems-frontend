@@ -1,0 +1,13 @@
+.PageHeader {
+  font-size:3rem;
+  margin-top:0.5em;
+  margin-left:2%;
+  margin-bottom:0.5em;
+}
+
+input[type=checkbox] {
+  margin-left:3%;
+  transform: scale(3);
+}
+
+

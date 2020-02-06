@@ -1,0 +1,91 @@
+
+h2 {
+    margin-top:0px;
+}
+
+.NavBar {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1rem;
+    background-color: #24BAE3;
+    padding:0.5em;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 1px 1.5px 1.5px 1px #aaaaaa
+}
+
+@media (min-width:780px) {
+    .NavBar {
+        flex-direction: row;
+        font-weight: 400;
+    }
+}
+
+.LogoSection {
+    display:inline-block;
+    margin-left:2%;
+    min-width:235px;
+}
+
+.LogoText {
+    font-size:3.5rem;
+    display:inline-block;
+    color:white;
+    margin-bottom:0;
+}
+
+.TagLine {
+    display: none;
+    font-style: italic;
+    text-shadow: lightgray -2px -2px 
+}
+
+@media (min-width:780px) {
+    .TagLine {
+        display: block;
+    }
+}
+
+ul {
+    text-decoration: none;
+    display:flex;
+    padding-left:0;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align:center;
+}
+
+li {
+    margin-bottom:0.25em;
+}
+
+
+@media(min-width:780px) {
+    ul {
+        flex-direction: row;
+        margin-left: 0%;
+        margin-right:2%;
+    }
+    li {
+        margin-top:1em;
+    }
+}
+
+
+
+.NavLink {
+    color:white;
+    text-decoration: none;
+    margin-bottom:0.5em;
+    margin-left:0.5em;
+    padding-bottom:0.1em;
+}
+
+.NavLink:hover {
+    border-bottom: 2px solid #083256;
+    color: #083256;
+    
+}
+

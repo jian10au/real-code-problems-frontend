@@ -1,0 +1,55 @@
+
+
+.buttonArea {
+    height: 40%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    width: 100%;
+    /* padding: 30px 45px; */
+}
+
+.buttonAreaTop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    /* display: flex;
+    justify-content: space-between; */
+    /* align-items: center; */
+    /* flex-grow: stretch; */
+}
+
+.buttonAreaTop > * {
+    flex: 1;
+}
+
+.buttonAreaBottom {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex: 1; */
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: stretch;
+    /* margin: 20px; */
+
+    /* align-items: center; */
+}
+
+.buttonAreaBottom > button {
+    flex: 1;
+}
+
+.buttonAreaBottom > a {
+    flex: 1;
+}
+
+a button {
+    text-decoration: none; 
+    flex: 1;
+}
+
+.link{
+    height: fit-content;
+}

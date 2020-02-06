@@ -1,0 +1,70 @@
+.Logo {
+    width:100px;
+    min-width:100px;
+    height: 100px;
+}
+
+.LogIn {
+    text-align: center;
+    padding:0.5em;
+    font-size:2.5rem;
+    text-decoration: none;
+    display:block;
+    min-width: 360px;
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0.25em;
+    background-color: black;
+}
+
+
+
+.LogIn:visited {
+    padding:0.5em;
+    color:white;
+}
+
+.LogOut {
+    text-align: center;
+    padding:0.5em;
+    font-size:2.5rem;
+    text-decoration: none;
+    display:block;
+    background-color: #24BAE3;
+    min-width: 360px;
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0.25em;
+}
+
+.LogOut:visited {
+    padding:0.5em;
+    color:white;
+}
+
+
+
+.logoContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width:30%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:2em;
+    margin-bottom: 2em;
+}
+
+.terms {
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em;
+    font-size:1.5rem;
+
+}
+
+.CopyRight {
+    text-align: right;
+}

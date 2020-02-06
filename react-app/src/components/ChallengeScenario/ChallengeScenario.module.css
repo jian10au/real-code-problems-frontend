@@ -1,0 +1,32 @@
+
+.helperImage {
+    width: 100%;
+}
+
+.helperText {
+    width: 100%;
+    font-size: 12px;
+}
+
+.scenarioContainer {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.testLineContainer {
+    display: flex;
+    align-items: center;
+}
+
+.testLineContainer p {
+    font-size: 14px;
+    color: #37BD2B;
+}
+
+.testLineContainer svg {
+    height: 10px;
+}
+
+.testLineContainer button {
+    padding: 1px;
+}

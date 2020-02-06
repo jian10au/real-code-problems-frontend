@@ -1,0 +1,11 @@
+table{
+    width: 100%;
+    border-collapse: seperate;
+    border-spacing: 0px 15px;
+}
+
+.tableContainer{
+    margin-left: 5em;
+    margin-right: 5em;
+
+}

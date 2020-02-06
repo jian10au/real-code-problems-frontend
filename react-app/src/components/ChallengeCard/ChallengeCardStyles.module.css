@@ -1,0 +1,48 @@
+.ChallengeCard {
+    position: relative;
+    width:23em;
+    flex:0 0 auto;
+    border-radius: 5px;
+    box-shadow: 1px 1.5px 1.5px 1px #aaaaaa;
+    margin: 0.5em 0.5em 1em;
+    padding:1em;
+    background-color: #F0F5FC;
+}
+
+.ChallengeCard:hover {
+    background-color: #ffffff
+}
+
+
+.IconArea {
+
+    display:inline-block;
+    margin-top: 0.5em;
+    margin-left:0.5em;
+}
+
+.CardSubtitle {
+    font-weight: 500;
+}
+
+.buttonLink {
+    /* margin-left:auto;
+    margin-right:auto; */
+    position:absolute;
+    left:0.75em;
+    bottom:0.75em;
+    font-weight: bold;
+    margin-top:1em;
+    padding:0.5em;
+    color:white;
+    background-color: #24BAE3;
+    text-decoration: none;
+    width:30%;
+    display: inline-block;
+    border-radius: 2px;
+    box-shadow: 1px 1.5px 1.5px 1px #aaaaaa
+}
+
+.buttonLink:hover {
+    color: #083256;
+}

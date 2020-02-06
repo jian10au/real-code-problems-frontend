@@ -1,0 +1,118 @@
+/* typography */
+
+
+
+.ContentContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    min-width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media (min-width:780px) {
+    .ContentContainer {
+        flex-direction: row;
+    }
+}
+
+
+.ProfileInfoContainer {
+    font-size:1rem;
+    display: inline-block;
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media (min-width:780px) {
+    .ProfileInfoContainer {
+        font-size:1.5rem;
+        width: 40%;
+    }
+}
+
+
+.ProfileInfoContainer p {
+    margin-bottom:1.25em;
+    border-radius: 2px;
+    box-shadow: 1px 1.5px 1.5px 1px #aaaaaa;
+    background-color: #F0F5FC;
+    padding:0.5em;
+    
+}
+
+
+
+.PhotoArea {
+    border-radius: 2px;
+    min-width: 350px;
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    display: inline-block;
+}
+
+@media (min-width:780px) {
+    .PhotoArea {
+        margin-left:2%;
+    }
+}
+
+
+.GitPhoto {
+    width: 100%;
+}
+
+.NotiOptionContainer {
+    padding:0.5em;
+    margin-left:15%;
+    border: 2px solid black;
+}
+
+.NotiOptionTickBox {
+    display: inline-block;
+    padding:1rem;
+    border: 2px solid black;
+}
+
+.UpdateButton {
+    color:white;
+    width:25%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    background-color: #2D9CDB;
+    font-size: 2rem;
+}
+
+@media (min-width:780px) {
+    .UpdateButton {
+        margin-left:55%;
+    }
+}
+
+
+.NotificationOption {
+    
+    font-size:1rem;
+    margin-left:18%;
+    margin-right:auto;
+}
+
+@media (min-width:780px) {
+    .NotificationOption {
+        
+        font-weight: 700;
+        font-size:1.5rem;
+        margin-left:20%;
+    }
+}
+
+.NotificationOptionCheckBox {
+    margin-left:1rem;
+    padding:1rem;
+    border:1px solid green;
+}

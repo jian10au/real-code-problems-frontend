@@ -1,0 +1,115 @@
+.EditForm {
+
+    font-size: 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    min-width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media (min-width:780px) {
+    .EditForm {
+        font-size: 2rem;
+    }
+}
+
+
+label {
+    margin-top:0.5em;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+label span {
+    display: inline-block;
+    min-width: 200px;
+    margin-bottom: 0.05em;
+}
+
+input[type="text"] {
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1.5px 1.5px 1px #aaaaaa;
+    margin-left:2%;
+    background-color:  #F0F5FC;
+    width:70%;
+    border: none;
+    vertical-align: right;
+}
+
+input[type="text"]:hover {
+   
+    background-color: white;
+    width:70%;
+    border: none;
+    
+}
+
+
+@media (min-width:780px) {
+    input[type="text"] {
+        font-size: 2rem;
+    }
+}
+
+
+
+@media (min-width:780px) {
+    .BioArea {
+        display:flex;
+    }
+}
+
+
+textarea {
+    font-size:1.5rem;
+    border-radius: 10px;
+    border:none;
+    min-width:230px;
+    width: 70%;
+    height: 30vh;
+    border-radius: 5px;
+    box-shadow: 1px 1.5px 1.5px 1px #aaaaaa;
+    background-color:  #F0F5FC;
+}
+
+textarea:hover {
+    background-color: white;
+}
+
+@media (min-width:780px) {
+    .textarea {
+        font-size: 2rem;
+    }
+}
+
+/* input[type="textarea"] {
+    margin-left:2%;
+    background-color: #2D9CDB;
+    width:70%;
+    border: none;
+    border-bottom: 2px solid black;
+} */
+
+
+.UpdateButton {
+    position: relative;
+    color:white;
+    width:25%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #2D9CDB;
+    font-size:1rem;
+}
+
+@media (min-width:780px) {
+    .UpdateButton {
+        margin-left:55%;
+        font-size: 2rem;
+    }
+}
